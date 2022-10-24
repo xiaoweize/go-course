@@ -633,7 +633,7 @@ func getProvider() (p store.Uploader, err error) {
 }
 ```
 
-我了防止密码被别人窥见到, 我们可以使用一个第三方库来加密我们的输入: https://github.com/AlecAivazis/survey
+为了防止密码被别人窥见到, 我们可以使用一个第三方库来加密我们的输入: https://github.com/AlecAivazis/survey
 
 ```go
 func getSecretKeyFromInputV2() {
